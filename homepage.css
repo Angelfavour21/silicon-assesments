@@ -1,0 +1,27 @@
+body{
+    background-image: url(https://imgv3.fotor.com/images/slider-image/A-clear-close-up-photo-of-a-woman.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    overflow: hidden;
+    font-weight: bold;
+}
+
+header{
+    background-color: rgb(106, 106, 196);
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    justify-content:center;
+    text-decoration: wavy;    
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+h2{
+    justify-content: end;
+}
+.leftdiv{
+    text-align: left;
+    text-size-adjust: 100px;
+}

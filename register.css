@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(90deg,#e2e2e2,#c9dcff);
+}
+
+.header{
+    text-align: center;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+
+}
+
+.container{
+    width: 400px;
+    height: 450px;
+    background:rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius:20px;
+    background-color:lightslategray);
+}
+
+form{
+    margin: auto;
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form input{
+    padding: 10px;
+    margin: 10px;
+}
+
+.login-form label{
+    margin: 5px 10px;
+    font-weight: bold;
+}
+
+.btn{
+    background-color: black;
+    color: blanchedalmond;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    width: 30%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    padding: 5px;
+    border: 4px;
+    border-radius: 4px;
+}
+
+.message{
+    margin-bottom: 10px;
+    margin: auto;
+    font-size: 15px;
+    font-weight: 200px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
